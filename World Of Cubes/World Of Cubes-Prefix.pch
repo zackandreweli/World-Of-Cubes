@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'World Of Cubes' target in the 'World Of Cubes' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

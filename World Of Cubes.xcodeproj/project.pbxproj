@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49F6ED341508207D00477599 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F6ED331508207D00477599 /* Cocoa.framework */; };
+		49F6ED3E1508207D00477599 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49F6ED3C1508207D00477599 /* InfoPlist.strings */; };
+		49F6ED401508207D00477599 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F6ED3F1508207D00477599 /* main.m */; };
+		49F6ED441508207D00477599 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 49F6ED421508207D00477599 /* Credits.rtf */; };
+		49F6ED471508207D00477599 /* CLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F6ED461508207D00477599 /* CLAppDelegate.m */; };
+		49F6ED4A1508207D00477599 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49F6ED481508207D00477599 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		49F6ED2F1508207D00477599 /* World Of Cubes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "World Of Cubes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49F6ED331508207D00477599 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		49F6ED361508207D00477599 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		49F6ED371508207D00477599 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		49F6ED381508207D00477599 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		49F6ED3B1508207D00477599 /* World Of Cubes-Info.plist */ = {isa = PBXFileReference; path = "World Of Cubes-Info.plist"; sourceTree = "<group>"; };
+		49F6ED3D1508207D00477599 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		49F6ED3F1508207D00477599 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49F6ED411508207D00477599 /* World Of Cubes-Prefix.pch */ = {isa = PBXFileReference; path = "World Of Cubes-Prefix.pch"; sourceTree = "<group>"; };
+		49F6ED431508207D00477599 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		49F6ED451508207D00477599 /* CLAppDelegate.h */ = {isa = PBXFileReference; path = CLAppDelegate.h; sourceTree = "<group>"; };
+		49F6ED461508207D00477599 /* CLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLAppDelegate.m; sourceTree = "<group>"; };
+		49F6ED491508207D00477599 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49F6ED2C1508207D00477599 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F6ED341508207D00477599 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49F6ED241508207D00477599 = {
+			isa = PBXGroup;
+			children = (
+				49F6ED391508207D00477599 /* World Of Cubes */,
+				49F6ED321508207D00477599 /* Frameworks */,
+				49F6ED301508207D00477599 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49F6ED301508207D00477599 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49F6ED2F1508207D00477599 /* World Of Cubes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49F6ED321508207D00477599 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49F6ED331508207D00477599 /* Cocoa.framework */,
+				49F6ED351508207D00477599 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49F6ED351508207D00477599 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49F6ED361508207D00477599 /* AppKit.framework */,
+				49F6ED371508207D00477599 /* CoreData.framework */,
+				49F6ED381508207D00477599 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		49F6ED391508207D00477599 /* World Of Cubes */ = {
+			isa = PBXGroup;
+			children = (
+				49F6ED451508207D00477599 /* CLAppDelegate.h */,
+				49F6ED461508207D00477599 /* CLAppDelegate.m */,
+				49F6ED481508207D00477599 /* MainMenu.xib */,
+				49F6ED3A1508207D00477599 /* Supporting Files */,
+			);
+			path = "World Of Cubes";
+			sourceTree = "<group>";
+		};
+		49F6ED3A1508207D00477599 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49F6ED3B1508207D00477599 /* World Of Cubes-Info.plist */,
+				49F6ED3C1508207D00477599 /* InfoPlist.strings */,
+				49F6ED3F1508207D00477599 /* main.m */,
+				49F6ED411508207D00477599 /* World Of Cubes-Prefix.pch */,
+				49F6ED421508207D00477599 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49F6ED2E1508207D00477599 /* World Of Cubes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49F6ED4D1508207D00477599 /* Build configuration list for PBXNativeTarget "World Of Cubes" */;
+			buildPhases = (
+				49F6ED2B1508207D00477599 /* Sources */,
+				49F6ED2C1508207D00477599 /* Frameworks */,
+				49F6ED2D1508207D00477599 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "World Of Cubes";
+			productName = "World Of Cubes";
+			productReference = 49F6ED2F1508207D00477599 /* World Of Cubes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49F6ED261508207D00477599 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 49F6ED291508207D00477599 /* Build configuration list for PBXProject "World Of Cubes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 49F6ED241508207D00477599;
+			productRefGroup = 49F6ED301508207D00477599 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49F6ED2E1508207D00477599 /* World Of Cubes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49F6ED2D1508207D00477599 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F6ED3E1508207D00477599 /* InfoPlist.strings in Resources */,
+				49F6ED441508207D00477599 /* Credits.rtf in Resources */,
+				49F6ED4A1508207D00477599 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49F6ED2B1508207D00477599 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F6ED401508207D00477599 /* main.m in Sources */,
+				49F6ED471508207D00477599 /* CLAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		49F6ED3C1508207D00477599 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49F6ED3D1508207D00477599 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		49F6ED421508207D00477599 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49F6ED431508207D00477599 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		49F6ED481508207D00477599 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49F6ED491508207D00477599 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49F6ED4B1508207D00477599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		49F6ED4C1508207D00477599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		49F6ED4E1508207D00477599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "World Of Cubes/World Of Cubes-Prefix.pch";
+				INFOPLIST_FILE = "World Of Cubes/World Of Cubes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		49F6ED4F1508207D00477599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "World Of Cubes/World Of Cubes-Prefix.pch";
+				INFOPLIST_FILE = "World Of Cubes/World Of Cubes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49F6ED291508207D00477599 /* Build configuration list for PBXProject "World Of Cubes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F6ED4B1508207D00477599 /* Debug */,
+				49F6ED4C1508207D00477599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49F6ED4D1508207D00477599 /* Build configuration list for PBXNativeTarget "World Of Cubes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F6ED4E1508207D00477599 /* Debug */,
+				49F6ED4F1508207D00477599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49F6ED261508207D00477599 /* Project object */;
+}
